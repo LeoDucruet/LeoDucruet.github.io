@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: rgb(224, 224, 224);
+}
+
+.dark-mode {
+  background-color: #575757;
+  color: white;
+}
+
+.dark-mode-table {
+  border: solid 2px #282828;
+}
+
+.dark-mode-th-td {
+  border: solid 1px #3f3f3f;
+}
+
+.dark-mode-title {
+  color: #282828;
+}
+
+.dark-mode-button {
+  position: absolute;
+  left: 90%;
+  top: 4%;
+}
+
+div {
+  display: flex;
+}
+
+footer {
+  border: solid 2px darkgray;
+}
+
+h1, h2 {
+  text-align: center;
+  color: rgb(80, 80, 80);
+}
+
+header {
+  border: solid 2px darkgray;
+}
+
+hr {
+  color: darkgrey;
+}
+
+li {
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 4px;
+}
+
+main {
+  margin: 8px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+p {
+  position: relative;
+  width: 70%;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  position: relative;
+  border-collapse: collapse;
+  border: 2px solid rgb(140 140 140);
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  width: 70%;
+  background-color: rgba(30, 144, 255, 0.3);
+}
+
+th, td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+  width: 25%;
+  text-align: center;
+}
+
+tr:first-child {
+  font-size: 1rem;
+}
+
+a:hover::after {
+  transform: scaleX(1);
+}
+
+ul a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: dodgerblue;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+
+ul a {
+  position: relative;
+  text-decoration: none;
+  color: dodgerblue;
+  width: 8%;
+  margin: 0px 1% 0px 1%;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+
+  
