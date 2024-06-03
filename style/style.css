@@ -22,8 +22,8 @@ body {
 
 .dark-mode-button {
   position: absolute;
-  left: 90%;
-  top: 4%;
+  right: 10px;
+  top: 50px;
 }
 
 div {
@@ -43,9 +43,7 @@ header {
   border: solid 2px darkgray;
 }
 
-hr {
-  color: darkgrey;
-}
+
 
 li {
   text-align: center;
