@@ -1,7 +1,7 @@
 function darkMode() {
     var body = document.body;
     body.classList.toggle("dark-mode");
-    var title = document.querySelectorAll("h1, h2, hr");
+    var title = document.querySelectorAll("h1, h2, h3, hr");
     title.forEach((element) => {
         element.classList.toggle("dark-mode-title");
     });
@@ -18,5 +18,9 @@ function darkMode() {
     var thTd = document.querySelectorAll("th, td");
     thTd.forEach((element) => {
         element.classList.toggle("dark-mode-th-td");
+    });
+    var article = document.querySelectorAll("article");
+    article.forEach((element) => {
+        element.classList.toggle("project-dark");
     });
 }
