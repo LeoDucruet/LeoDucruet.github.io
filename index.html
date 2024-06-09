@@ -9,20 +9,23 @@
     <body>
         <header>
             <h1>Portfolio</h1>
-            <button class="dark-mode-button" onclick="darkMode()">Dark mode</button>
+            <label class="switch" >
+                <input type="checkbox" onclick="darkMode()">
+                <span class="slider round"></span>
+            </label>
            
             <nav>
                 <ul>
-                    <a href="#"><li>Accueil</li></a>
-                    <a href="projets.html"><li>Projets</li></a>
-                    <a href=""><li>Autre</li></a>
+                    <a href="#"><li class="nav-li">Accueil</li></a>
+                    <a href="projets.html"><li class="nav-li">Projets</li></a>
+                    <a href=""><li class="nav-li">Autre</li></a>
                 </ul>
             </nav>
         </header>
 
         <main>
 
-        <h2>Présentation</h2>
+        <h2>Qui suis-je ?</h2>
         <section class="section1">
             <img src="images/user.jpg" alt="Photo d'identité" height="150">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ex exercitationem ad quidem nam animi perferendis, possimus impedit numquam similique velit ea ut unde odit qui cum provident mollitia. Nisi.</p>
@@ -59,6 +62,12 @@
             </table>
 
         </section>
+
+        <a href="projets.html">
+        <button>
+            Découvrir mes projets
+        </button>
+        </a>
 
         </main>
 
